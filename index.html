@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ranker</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="background.css">
+    <link rel="stylesheet" href="dynamicBars.css">
+    <script src="scripts.js" defer></script>
+</head>
+
+<body>
+    <main>
+        <h1>Calculadora de Partidas Rankeadas</h1>
+        <div class="inputs">
+            <div>
+                <label for="wins">Vitórias</label>
+                <br>
+                <input type="number" min="0" value="0" name="wins" id="wins">
+            </div>
+            <div>
+                <label for="loses">Derrotas</label>
+                <br>
+                <input type="number" min="0" value="0" name="loses" id="loses">
+            </div>
+        </div>
+        <div class="winratio">
+            <div id="wins-bar"></div>
+        </div>
+        <p>O Herói tem de saldo de <span id="span-balance">0</span> e está no nível de <span id="span-rank">Ferro</span></p>
+        </div>
+    </main>
+    <div id="bg">
+        <ul class="sym">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+
+</body>
+
+</html>
